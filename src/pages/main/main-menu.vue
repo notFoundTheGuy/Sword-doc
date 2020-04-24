@@ -88,6 +88,7 @@ export default {
         onTabClick(item) {
             if (!item.link || item.link == this.$route.path) return;
             this.$router.push(item.link);
+            this.$emit('menuChange')
         }
     }
 };

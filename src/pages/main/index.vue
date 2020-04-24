@@ -2,9 +2,9 @@
     <div class="layout">
         <section>
             <div class="main-menu">
-                <main-menu></main-menu>
+                <main-menu  @menuChange="onMenuChange"></main-menu>
             </div>
-            <div class="main-content">
+            <div class="main-content" ref="mainContent">
                 <router-view></router-view>
             </div>
         </section>
@@ -18,6 +18,11 @@ export default {
     components: { mainMenu },
     data() {
         return {};
+    },
+    methods: {
+        onMenuChange() {
+            this.$refs.mainContent.scrollTo(0,0)
+        }
     }
 };
 </script>
