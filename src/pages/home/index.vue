@@ -10,10 +10,10 @@
                     <img src="@/assets/arrow-r.png" alt="arrow-r" />
                 </p>
 
-                <p class="btn secondary" @click="toGithub">
+                <a class="btn secondary" href="https://github.com/notFoundTheGuy/Sword" target="_blank">
                     <img src="@/assets/github1.png" alt="arrow-r" />
                     GITHUB
-                </p>
+                </a>
             </div>
         </section>
 
@@ -23,17 +23,6 @@
         <div class="bg3"></div>
     </div>
 </template>
-
-<script>
-export default {
-    name: 'home',
-    methods: {
-        toGithub() {
-            window.open('')
-        }
-    }
-}
-</script>
 
 <style lang="less" scoped>
 .home-wrap {
@@ -62,7 +51,7 @@ export default {
         }
         .operates {
             display: flex;
-            p.btn {
+            .btn {
                 width: 11rem;
                 padding: 0.8rem 2rem;
                 line-height: 1;

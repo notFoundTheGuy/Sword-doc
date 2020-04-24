@@ -9,7 +9,7 @@ import codearea from './components/codearea.vue'
 Vue.component('codearea', codearea)
 
 // 本地开发目录
-import TheSword from '../../sword/src/index'
+import TheSword from '../../Sword/src/index'
 // 发布前测试
 // import TheSword from '../../sword/dist/sword.min.js'
 // 正式使用

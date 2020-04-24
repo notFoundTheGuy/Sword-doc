@@ -45,10 +45,10 @@ export default {
                     name: "组件",
                     link: "/main"
                 },
-                {
-                    name: "About",
-                    link: "/main"
-                }
+                // {
+                //     name: "About",
+                //     link: "/main"
+                // }
             ]
         };
     },
