@@ -1,0 +1,40 @@
+@import './reset.less';
+
+html {
+    font-size: 16px;
+    @media screen and (max-width: 1600px) {
+        font-size: 14px;
+    }
+    @media screen and (max-width: 1400px) {
+        font-size: 10px;
+    }
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mv-10 {
+    margin: 10px 0;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.block {
+    display: block;
+}
+button {
+    background: @topicColor;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 3px 15px;
+    border-radius: 3px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
