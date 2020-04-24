@@ -1,0 +1,37 @@
+.hidden,
+.focus-visible,
+.hover-visible,
+.hover-prev-visible, 
+.hover-parent-visible, 
+.hover-self-visible, 
+.focus-prev-visible, 
+.focus-parent-visible {
+    visibility: hidden!important;
+}
+
+.visible,
+:not(html):hover + .hover-prev-visible,
+:not(html):hover > .hover-parent-visible,
+.hover-self-visible:hover,
+:not(html):focus + .focus-prev-visible,
+:not(html):focus > .focus-parent-visible {
+    visibility: visible!important;
+}
+
+.hover-visible,
+.hover-prev-visible, 
+.hover-parent-visible {
+    transition: visibility .3s;
+    &:hover {
+        visibility: visible!important;
+    }
+}
+
+.focus-visible,
+.focus-prev-visible, 
+.focus-parent-visible {
+    transition: visibility .1s;
+    &:focus {
+        visibility: visible!important;
+    }
+}

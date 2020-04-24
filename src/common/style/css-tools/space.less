@@ -1,0 +1,115 @@
+.padding(21);
+.padding(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .p-@{w} { padding: (@w * 1px)!important; }
+    .padding(@n, (@i + 1));
+}
+
+.padding-left(21);
+.padding-left(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .pl-@{w} { padding-left: (@w * 1px)!important; }
+    .padding-left(@n, (@i + 1));
+}
+
+.padding-right(21);
+.padding-right(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .pr-@{w} { padding-right: (@w * 1px)!important; }
+    .padding-right(@n, (@i + 1));
+}
+
+.padding-top(21);
+.padding-top(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .pt-@{w} { padding-top: (@w * 1px)!important; }
+    .padding-top(@n, (@i + 1));
+}
+
+.padding-bottom(21);
+.padding-bottom(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .pb-@{w} { padding-bottom: (@w * 1px)!important; }
+    .padding-bottom(@n, (@i + 1));
+}
+
+.padding-v(21);
+.padding-v(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .pv-@{w} {
+        padding-top: (@w * 1px)!important;
+        padding-bottom: (@w * 1px)!important;
+    }
+    .padding-v(@n, (@i + 1));
+}
+
+.padding-h(21);
+.padding-h(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .ph-@{w} {
+        padding-left: (@w * 1px)!important;
+        padding-right: (@w * 1px)!important;
+    }
+    .padding-h(@n, (@i + 1));
+}
+
+// margin
+
+.margin(21);
+.margin(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .m-@{w} { margin: (@w * 1px)!important; }
+    .margin(@n, (@i + 1));
+}
+
+.margin-left(21);
+.margin-left(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .ml-@{w} { margin-left: (@w * 1px)!important; }
+    .margin-left(@n, (@i + 1));
+}
+
+.margin-right(21);
+.margin-right(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .mr-@{w} { margin-right: (@w * 1px)!important; }
+    .margin-right(@n, (@i + 1));
+}
+
+.margin-top(21);
+.margin-top(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .mt-@{w} { margin-top: (@w * 1px)!important; }
+    .margin-top(@n, (@i + 1));
+}
+
+.margin-bottom(21);
+.margin-bottom(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .mb-@{w} { margin-bottom: (@w * 1px)!important; }
+    .margin-bottom(@n, (@i + 1));
+}
+
+.margin-v(21);
+.margin-v(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .mv-@{w} {
+        margin-top: (@w * 1px)!important;
+        margin-bottom: (@w * 1px)!important;
+    }
+    .margin-v(@n, (@i + 1));
+}
+.mh-auto {
+    margin-left: auto!important;
+    margin-right:auto!important;
+}
+
+.margin-h(21);
+.margin-h(@n, @i: 0) when (@i =< @n) {
+    @w: @i*5;
+    .mh-@{w} {
+        margin-left: (@w * 1px)!important;
+        margin-right: (@w * 1px)!important;
+    }
+    .margin-h(@n, (@i + 1));
+}

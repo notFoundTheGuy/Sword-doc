@@ -13,6 +13,7 @@ import TreeTable from '../pages/c-layout/treeTable.vue'
 import imgFillW from '../pages/c-img/imgfill-w.vue'
 import imgFillH from '../pages/c-img/imgfill-h.vue'
 import imgcard from '../pages/c-img/imgcard.vue'
+import magicCss from '../pages/c-magic-css/index.vue'
 
 
 // import TouchShow from '../pages/TouchShow.vue'
@@ -65,6 +66,11 @@ const routes = [
       {
         path: 'imgcard',
         component: imgcard
+      },
+      ,
+      {
+        path: 'magic-css',
+        component: magicCss
       }
     ]
   },

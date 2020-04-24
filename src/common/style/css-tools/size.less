@@ -1,0 +1,29 @@
+.percent(100);
+.percent(@n, @i: 1) when (@i =< @n) {
+    .pct-@{i} { width: (@i * 1%)!important; }
+    .percent(@n, (@i + 1));
+}
+.pct-33 {width:33.33%!important;}
+.pct-66 {width:66.66%!important;}
+
+.width(100);
+.width(@n, @i: 1) when (@i =< @n) {
+    @w: @i*5;
+    .w-@{w} { width: (@w * 1px)!important; }
+    .width(@n, (@i + 1));
+}
+
+.height(100);
+.height(@n, @i: 1) when (@i =< @n) {
+    @w: @i*5;
+    .h-@{w} { height: (@w * 1px)!important; }
+    .height(@n, (@i + 1));
+}
+
+.w-auto {
+    width: auto!important;
+}
+
+.h-auto {
+    height: auto!important;
+}

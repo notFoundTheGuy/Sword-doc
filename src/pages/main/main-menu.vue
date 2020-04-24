@@ -77,7 +77,8 @@ export default {
                     title: "Performance",
                     subMenu: [
                         {
-                            name: "CSS特效"
+                            name: "CSS特效",
+                            link: "/main/magic-css"
                         }
                     ]
                 }

@@ -11,9 +11,9 @@ Vue.component('codearea', codearea)
 // 本地开发目录
 // import TheSword from '../../Sword/src/index'
 // 发布前测试
-import TheSword from '../../Sword/dist/sword.min.js'
+// import TheSword from '../../Sword/dist/sword.min.js'
 // 正式使用
-// import TheSword from 'the-sword'
+import TheSword from 'the-sword'
 
 import ViewUI from 'view-design';
 import 'view-design/dist/styles/iview.css';
