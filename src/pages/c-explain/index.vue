@@ -16,7 +16,7 @@
                     </div>
 
                     <h3 class="mt-10">按需引入</h3>
-                    <div class="code">开发中。。。</div>
+                    <div class="code">研究中。。。</div>
                 </div>
             </div>
         </section>

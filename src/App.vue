@@ -10,12 +10,14 @@
             </div>
             <router-view></router-view>
         </div>
+        <Cat></Cat>
     </div>
 </template>
 <script>
 import topBar from "./pages/top-bar";
+import Cat from "_c/cat/cat.vue";
 export default {
-    components: { topBar },
+    components: { topBar, Cat },
     name: "app",
     data() {
         return {};
