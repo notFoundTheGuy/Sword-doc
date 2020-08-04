@@ -73,6 +73,7 @@ export default {
     h2 {
         font-size: 20px;
         padding: 3px 0;
+        color: #666;
     }
     > section {
         > div {
