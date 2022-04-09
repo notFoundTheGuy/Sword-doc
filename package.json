@@ -10,7 +10,7 @@
     "core-js": "^3.6.4",
     "highlight.js": "^10.0.0",
     "marked": "^1.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "view-design": "^4.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6"
